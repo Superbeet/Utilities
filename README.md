@@ -16,9 +16,12 @@ http://pydev.org/nightly   (for nightly build)
 #### 3rd Party Libraries
 http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
+
+#### Eclipse Color Theme
+http://eclipse-color-theme.github.com/update-
+
 #### Unit Tests APIs
 **Example**
-
 ```python
 
 import unittest
