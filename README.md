@@ -18,20 +18,22 @@ http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 #### Unit Tests APIs
 **Example**
-```python
-        import unittest
 
-        class WidgetTestCase(unittest.TestCase):
-            def setUp(self):
-                self.widget = Widget("The widget")
-   
-            def tearDown(self):
-                self.widget.dispose()
-                self.widget = None
-   
-            def testDefaultSize(self):
-                assert self.widget.size() == (50,50), 'incorrect default size'
-                
+```python
+
+import unittest
+
+class WidgetTestCase(unittest.TestCase):
+    def setUp(self):
+        self.widget = Widget("The widget")
+
+    def tearDown(self):
+        self.widget.dispose()
+        self.widget = None
+
+    def testDefaultSize(self):
+        assert self.widget.size() == (50,50), 'incorrect default size'
+        
 
 if __name__ == '__main__':
     unittest.main()
