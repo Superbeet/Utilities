@@ -31,7 +31,8 @@ http://www.lfd.uci.edu/~gohlke/pythonlibs/
    
             def testDefaultSize(self):
                 assert self.widget.size() == (50,50), 'incorrect default size'
-            def testResize(self):
-                self.widget.resize(100,150)
-                assert self.widget.size() == (100,150), 'wrong size after resize'
+                
+
+if __name__ == '__main__':
+    unittest.main()
 ```  
